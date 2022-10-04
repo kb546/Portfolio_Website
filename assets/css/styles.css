@@ -442,7 +442,7 @@ img {
 }
 
 .cv-button:hover{
-  transform: translateY(0.25rem);
+  transform: translateY(0.35rem);
 }
 .cv-arrow{
   font-size: 1.25rem;
