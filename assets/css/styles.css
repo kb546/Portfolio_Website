@@ -435,6 +435,14 @@ img {
   display: flex;
   justify-content: center;
 }
+
+.cv-button{
+  color: var(--first-color);
+}
+
+.cv-arrow{
+  font-size: 1.25rem;
+}
 /*==================== SKILLS ====================*/
 
 .skills_container{
