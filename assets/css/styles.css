@@ -622,6 +622,7 @@ img {
   display: none;
 }
 
+
 .qualification_active[data-content]{
   display: block;
 }
