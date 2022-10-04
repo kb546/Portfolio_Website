@@ -438,8 +438,12 @@ img {
 
 .cv-button{
   color: var(--first-color);
+  transition: .3s;
 }
 
+.cv-button:hover{
+  transform: translateY(0.25rem);
+}
 .cv-arrow{
   font-size: 1.25rem;
 }
