@@ -652,6 +652,8 @@ img {
 
 .services_content{
   position: relative;
+  overflow-y: auto;
+  scroll-behavior: smooth;
   background-color: var(--container-color);
   padding: 3.5rem .5rem 1.25rem 1.5rem;
   border-radius: .25rem;
