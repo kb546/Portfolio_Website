@@ -692,8 +692,6 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
   background-color: rgba(0, 0, 0, .15);
   display: flex;
   align-items: center;
@@ -708,6 +706,8 @@ img {
 
 .services_modal-content{
   position: relative;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
   background-color: var(--container-color);
   padding: 1.5rem;
   border-radius: .5rem;
