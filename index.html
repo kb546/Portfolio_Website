@@ -726,15 +726,25 @@
                         </div>
                     </div>
                     <form class="contact_form grid" action="https://formsubmit.co/bikamanzi@gmail.com" method="POST">
+                        <!-----HoneyPot (For Scammers) ------->
+                        <input type="text" name="_honey" style="display:none;">
+
+                        <!-- Disable Captcha -->
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <!-- Success Page -->
+                        <!-- <input type="hidden" name="_next" value="http://bill-kamanzi.com/"> -->
+
+
                         <div class="contact_inputs grid">
                             <div class="contact_content">
                                 <label for="name" class="contact_label">Name</label>
-                                <input type="text" id="name" class="contact_input" required>
+                                <input type="text" id="name" name="Name" class="contact_input" required>
                             </div>
 
                             <div class="contact_content">
                                 <label for="" class="contact_label">Email</label>
-                                <input type="email" class="contact_input" required>
+                                <input type="email" name="Email" class="contact_input" required>
                             </div>
                         </div>
                         <!-- <div class="contact_content">
@@ -743,16 +753,15 @@
                         </div> -->
                         <div class="contact_content">
                             <label for="" class="contact_label">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                            <textarea name="" id="Message" cols="0" rows="7" class="contact_input"></textarea>
                         </div>
 
                         <div>
-                            <a href="#" class="button button--flex">
-                                <button type="submit" class="submit_btn">
+                            <button type="submit" class="button button--flex">
                                 Send Message
                                 <i class="uil uil-message button_icon"></i>
                             </button>
-                            </a>
+                            
                         </div>
                     </form>
                 </div>
