@@ -928,6 +928,10 @@ img {
 
 }
 
+.submit_btn{
+  display: none;
+}
+
 /*==================== FOOTER ====================*/
 .footer{
   padding-top: 2rem;
