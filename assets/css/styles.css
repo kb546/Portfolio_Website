@@ -929,7 +929,7 @@ img {
 }
 
 .submit_btn{
-  background-color: var(--first-color);
+  color: var(--first-color);
 }
 
 /*==================== FOOTER ====================*/
