@@ -334,6 +334,15 @@ img {
 .home_scroll-button:hover{
   transform: translateY(0.25rem);
 }
+
+.contactme_btn{
+  transition: .3s;
+}
+
+.contactme_btn:hover{
+  transform: translateX(0.25rem);
+}
+
 .home_scroll-mouse{
   font-size:2rem;
 
@@ -378,7 +387,7 @@ img {
   background-color: #fff;
 }
 .button--flex{
-  /* display: inline-flex; */
+  display: inline-flex;
   align-items: center;
 }
 
@@ -930,6 +939,12 @@ img {
 
 .submit_btn{
   border-style: var(--first-color);
+  display: inline-block;
+  transition: .3s;
+}
+
+.submit_btn:hover{
+  transform:translateX(0.25rem) ;
 }
 
 
