@@ -378,7 +378,7 @@ img {
   background-color: #fff;
 }
 .button--flex{
-  display: inline-flex;
+  /* display: inline-flex; */
   align-items: center;
 }
 
@@ -929,8 +929,9 @@ img {
 }
 
 .submit_btn{
-  color: var(--first-color);
+  border-style: var(--first-color);
 }
+
 
 /*==================== FOOTER ====================*/
 .footer{
